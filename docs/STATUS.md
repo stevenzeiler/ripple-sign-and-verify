@@ -17,7 +17,7 @@ Last reviewed: 2026-11-20 (github-audit pass 02, documentation only; no code was
 - The source requires a module named `utils` that is not in `package.json`, and `package.json` has no `gulp`, `gulp-6to5` or `mocha`.
 - The committed `npm-debug.log` records a failed `npm run build` on Node 0.10.32 and npm 1.4.28.
 - `.gitignore` does not ignore `build/` or `npm-debug.log`.
-- Secret-looking strings: the original README (before this PR) and the files `test/signer.js`, `test/verifier.js`, `test/private_key.js` and `test/public_key.js` hold strings in Ripple secret-key format. They are probably throwaway sample keys, which is unverified. This PR replaces the README ones with placeholders, but the tests and git history still hold them. Rotation or history cleanup, if wanted, is Steven's call.
+- Secret-looking strings: the original README (before this PR) and the files `test/signer.js`, `test/verifier.js` and `test/private_key.js` hold strings in Ripple secret-key format (`test/public_key.js` holds only a public address). They are probably throwaway sample keys, which is unverified. This PR replaces the README ones with placeholders, but the tests and git history still hold them. Rotation or history cleanup, if wanted, is Steven's call.
 
 ## What's next
 

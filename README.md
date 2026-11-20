@@ -6,7 +6,7 @@ Prove identity and ownership of a Ripple secret key using digital signatures. Th
 
 ## Install
 
-Not published to npm. To look at it:
+Not known to be on npm. To look at it:
 
     git clone https://github.com/stevenzeiler/ripple-sign-and-verify
     cd ripple-sign-and-verify
@@ -47,7 +47,7 @@ Each class lives in its own file in `src/`, with a mocha spec of the same name i
 
 ## Status
 
-Abandoned in the sketch stage. It was a direct precursor of the identity-linking idea in Steven's later `attest` repo. See [docs/STATUS.md](docs/STATUS.md).
+Abandoned in the sketch stage. The identity-linking idea came back four days later in Steven's `attest` repo. See [docs/STATUS.md](docs/STATUS.md).
 
 ## License
 
